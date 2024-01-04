@@ -1,3 +1,8 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 04/01/2019 14:25
+  	*/
+
 @font-face {
   font-family: "Flaticon";
   src: url("../fonts/Flaticon.eot");
@@ -22,27 +27,23 @@
 	font-style: normal;
 }
 
-.flaticon-001-settings:before {
-	content: "\e001";
-}
-.flaticon-002-fingerprint-scanning-using-index-finger:before {
-	content: "\e002";
-}
-.flaticon-003-customer-support:before {
-	content: "\e003";
-}
-.flaticon-004-support:before {
-	content: "\e004";
-}
-.flaticon-005-customer:before {
-	content: "\e005";
-}
-.flaticon-006-feature:before {
-	content: "\e006";
-}
-.flaticon-007-paint-palette:before {
-	content: "\e007";
-}
-.flaticon-008-shield:before {
-	content: "\e008";
-}
+
+.flaticon-diagram:before { content: "\f100"; }
+.flaticon-growth:before { content: "\f101"; }
+.flaticon-hand-shake:before { content: "\f102"; }
+.flaticon-money:before { content: "\f103"; }
+.flaticon-money-1:before { content: "\f104"; }
+.flaticon-strategy:before { content: "\f105"; }
+.flaticon-investment:before { content: "\f106"; }
+.flaticon-crowdfunding:before { content: "\f107"; }
+.flaticon-play-button:before { content: "\f108"; }
+.flaticon-right-arrow:before { content: "\f109"; }
+.flaticon-back:before { content: "\f10a"; }
+.flaticon-settings:before { content: "\f10b"; }
+.flaticon-piggy-bank:before { content: "\f10c"; }
+.flaticon-money-2:before { content: "\f10d"; }
+.flaticon-money-bag:before { content: "\f10e"; }
+.flaticon-idea:before { content: "\f10f"; }
+.flaticon-users:before { content: "\f110"; }
+.flaticon-customer:before { content: "\f111"; }
+.flaticon-trophy:before { content: "\f112"; }

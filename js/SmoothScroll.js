@@ -700,7 +700,6 @@ function pulse(x) {
  * FIRST RUN
  ***********************************************/
 
-var EnableSmoothScroll = true;
 var userAgent = window.navigator.userAgent;
 var isEdge    = /Edge/.test(userAgent); // thank you MS
 var isChrome  = /chrome/i.test(userAgent) && !isEdge; 
@@ -716,7 +715,7 @@ if ('onwheel' in document.createElement('div'))
 else if ('onmousewheel' in document.createElement('div'))
     wheelEvent = 'mousewheel';
 
-if (wheelEvent && isEnabledForBrowser && EnableSmoothScroll) {
+if (wheelEvent && isEnabledForBrowser) {
     addEvent(wheelEvent, wheel);
     addEvent('mousedown', mousedown);
     addEvent('load', init);
